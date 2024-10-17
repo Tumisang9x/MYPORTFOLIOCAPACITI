@@ -1,0 +1,123 @@
+
+body
+  {
+  background-image: url('HomeP.jpg');
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    
+    }
+h1 
+  {
+    color: rgb(22, 141, 177);
+    font-family: verdana;
+    font-size: 300%;
+  }
+  h2
+  {
+    color: rgb(22, 141, 177);
+    font-family: verdana;
+    font-size: 200%;
+    
+  }
+p    
+
+{
+  color: rgb(0, 0, 0);
+  font-family: courier;
+  font-size: 160%;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Unica One', cursive;
+    font-size: 1.2rem;
+}
+.profile-photo {
+    max-width: 70%;
+    height: auto; 
+    border-radius: 55%; 
+}
+.btn-icon {
+  display: inline-block;
+}
+
+.btn-icon a {
+  display: flex;
+  align-items: center;
+  background-color: #41819e; /* Blue background */
+  color: white; /* White text */
+  padding: 12px 20px; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+.btn-icon a:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly grow the button */
+}
+
+.btn-icon .icon {
+  margin-left: 10px; /* Space between text and icon */
+  font-size: 18px; /* Icon size */
+}
+#portfolio{
+  margin-top: 80px;
+}
+
+input{
+  min-height: 35px;
+}
+.w3-button{
+  min-height: 35px;
+  display: flex;
+  align-items: center;
+  background-color: #41819e; /* Blue background */
+  color: white; /* White text */
+  padding: 12px 20px; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+.header-background{
+  min-height: 700px;
+
+}
+footer {
+  background-color: #41819e; /* Dark background for footer */
+  color: white; 
+  text-align: center; 
+  padding: 15px 0; 
+  position: relative; /* Positioning context for centering */
+  bottom: 0; /* Position at the bottom */
+  width: 100%; /* Full width */
+}
+
